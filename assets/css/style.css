@@ -1,0 +1,18 @@
+.column {
+    width: 200px;
+    height: 200px;
+    border: black solid 2px;
+    display: flex;
+}
+
+.column > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    font-size: 100px;
+}
+
+#grid {
+    display: flex;
+}
