@@ -3,6 +3,7 @@
     height: 200px;
     border: black solid 2px;
     display: flex;
+    z-index: 1000;
 }
 
 .column > p {
@@ -15,4 +16,21 @@
 
 #grid {
     display: flex;
+}
+
+#turn-container {
+    display: flex;
+    align-content: space-between;
+    padding: 3px;
+}
+
+#turn-container > li {
+    border: solid black 2px;
+    padding: 1rem;
+    list-style-type: none;
+    margin: 2rem;
+}
+
+#turn {
+    background-color: lightblue;
 }
